@@ -259,6 +259,7 @@ public class MainClass {
 
 	protected void run(String[] args) throws Exception {
 		// We need proper parameters
+		logger.info("Starting FROST SootInfoflow-CMD");
 		final HelpFormatter formatter = new HelpFormatter();
 		if (args.length == 0) {
 			formatter.printHelp("soot-infoflow-cmd [OPTIONS]", options);
